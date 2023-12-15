@@ -1,0 +1,109 @@
+2023-12-08 16:34:47,755 - training - INFO - LogisticRegression
+2023-12-08 16:34:47,757 - training - INFO - 最佳参数: {'C': 60.1038975477389, 'max_iter': 1000, 'penalty': 'l2', 'solver': 'liblinear'}
+2023-12-08 16:34:47,758 - training - INFO - 最佳模型分数（F1分数）: 0.886666170732245
+2023-12-08 16:42:14,195 - training - INFO - dataset doc F1分数: 0.9516055788355426
+2023-12-08 16:42:14,326 - training - INFO - dataset sent F1分数: 0.790188538643597
+2023-12-08 16:42:14,433 - training - INFO - dataset mix F1分数: 0.8186839651235414
+2023-12-08 16:55:44,671 - training - INFO - GaussianNB
+2023-12-08 16:55:51,455 - training - INFO - dataset doc F1分数: 0.7260381833795444
+2023-12-08 16:56:21,285 - training - INFO - dataset sent F1分数: 0.7052092938045124
+2023-12-08 16:56:57,960 - training - INFO - dataset mix F1分数: 0.7108262937521789
+2023-12-08 19:06:18,178 - training - INFO - SVC
+2023-12-08 19:06:18,180 - training - INFO - 最佳参数: {'kernel': 'linear'}
+2023-12-08 19:06:18,182 - training - INFO - 最佳模型分数（F1分数）: 0.9085777156188932
+2023-12-08 19:08:01,938 - training - INFO - dataset doc F1分数: 0.9508132015388627
+2023-12-08 19:08:29,659 - training - INFO - dataset sent F1分数: 0.7942313380695653
+2023-12-08 19:09:10,109 - training - INFO - dataset mix F1分数: 0.8218375813795057
+2023-12-08 19:29:52,155 - training - INFO - DecisionTreeClassifier
+2023-12-08 19:29:52,157 - training - INFO - 最佳参数: {'criterion': 'entropy', 'max_depth': 26, 'min_samples_leaf': 3, 'min_samples_split': 9}
+2023-12-08 19:29:52,158 - training - INFO - 最佳模型分数（F1分数）: 0.8463730027687364
+2023-12-08 19:39:54,403 - training - INFO - dataset doc F1分数: 0.8757540653187327
+2023-12-08 19:39:54,496 - training - INFO - dataset sent F1分数: 0.5547701906680897
+2023-12-08 19:39:54,606 - training - INFO - dataset mix F1分数: 0.6181491849905947
+2023-12-08 19:59:17,068 - training - INFO - RandomForestClassifier
+2023-12-08 20:10:36,083 - training - INFO - 最佳参数: {'n_estimators': 300, 'min_samples_split': 3, 'min_samples_leaf': 1, 'max_depth': 39}
+2023-12-08 20:10:36,084 - training - INFO - 最佳模型分数（F1分数）: 0.8295074247899311
+2023-12-08 20:12:06,216 - training - INFO - dataset doc F1分数: 0.9202056193485065
+2023-12-08 20:12:07,682 - training - INFO - dataset sent F1分数: 0.3761817531730884
+2023-12-08 20:26:16,902 - training - INFO - dataset doc F1分数: 0.9105713077936782
+2023-12-08 20:26:17,024 - training - INFO - dataset sent F1分数: 0.4893361845103813
+2023-12-08 20:26:17,183 - training - INFO - dataset mix F1分数: 0.5762185372761421
+2023-12-08 20:36:43,367 - training - INFO - GradientBoostingClassifier
+2023-12-08 20:36:43,368 - training - INFO - 最佳参数: {'n_estimators': 100}
+2023-12-08 20:36:43,368 - training - INFO - 最佳模型分数（F1分数）: 0.8924386325891177
+2023-12-08 20:38:29,623 - training - INFO - dataset doc F1分数: 0.945940525040678
+2023-12-08 20:38:29,842 - training - INFO - dataset sent F1分数: 0.5329450551775958
+2023-12-08 20:38:30,069 - training - INFO - dataset mix F1分数: 0.6167784601138654
+2023-12-08 20:42:13,618 - training - INFO - GradientBoostingClassifier
+2023-12-08 20:42:13,619 - training - INFO - 最佳参数: {'n_estimators': 350}
+2023-12-08 20:42:13,620 - training - INFO - 最佳模型分数（F1分数）: 0.9049437332142798
+2023-12-08 21:00:28,046 - training - INFO - GradientBoostingClassifier
+2023-12-08 21:00:28,047 - training - INFO - 最佳参数: {'booster': 'gbtree'}
+2023-12-08 21:00:28,047 - training - INFO - 最佳模型分数（F1分数）: 0.8924386325891177
+2023-12-08 21:02:30,905 - training - INFO - dataset doc F1分数: 0.9521372813008033
+2023-12-08 21:02:31,014 - training - INFO - dataset sent F1分数: 0.628798847850042
+2023-12-08 21:02:31,167 - training - INFO - dataset mix F1分数: 0.6908220978755264
+2023-12-08 21:05:28,290 - training - INFO - dataset doc F1分数: 0.9412617077471596
+2023-12-08 21:05:28,504 - training - INFO - dataset sent F1分数: 0.5260926610221477
+2023-12-08 21:05:28,743 - training - INFO - dataset mix F1分数: 0.6104687304070455
+2023-12-08 21:06:51,394 - training - INFO - dataset doc F1分数: 0.9595611625767171
+2023-12-08 21:06:51,588 - training - INFO - dataset sent F1分数: 0.6224785978344465
+2023-12-08 21:06:51,831 - training - INFO - dataset mix F1分数: 0.6872751457025844
+2023-12-08 22:38:15,416 - training - INFO - dataset doc F1分数: 0.9508132015388627
+2023-12-08 22:38:42,637 - training - INFO - dataset sent F1分数: 0.7942313380695653
+2023-12-08 22:39:22,638 - training - INFO - dataset mix F1分数: 0.8218375813795057
+2023-12-08 22:40:52,080 - training - INFO - dataset doc F1分数: 0.9105407832959145
+2023-12-08 22:40:54,143 - training - INFO - dataset sent F1分数: 0.3466030196397294
+2023-12-08 22:40:56,895 - training - INFO - dataset mix F1分数: 0.4720248971475776
+2023-12-08 23:29:50,571 - training - INFO - dataset doc F1分数: 0.9516055788355426
+2023-12-08 23:29:50,571 - training - INFO - dataset doc F1分数: 0.9516055788355426
+2023-12-08 23:29:50,698 - training - INFO - dataset sent F1分数: 0.790188538643597
+2023-12-08 23:29:50,698 - training - INFO - dataset sent F1分数: 0.790188538643597
+2023-12-08 23:29:50,798 - training - INFO - dataset mix F1分数: 0.8186839651235414
+2023-12-08 23:29:50,798 - training - INFO - dataset mix F1分数: 0.8186839651235414
+2023-12-08 23:30:00,763 - training - INFO - dataset doc F1分数: 0.9378714837946789
+2023-12-08 23:30:00,763 - training - INFO - dataset doc F1分数: 0.9378714837946789
+2023-12-08 23:30:00,851 - training - INFO - dataset sent F1分数: 0.7633575063189084
+2023-12-08 23:30:00,851 - training - INFO - dataset sent F1分数: 0.7633575063189084
+2023-12-08 23:30:00,954 - training - INFO - dataset mix F1分数: 0.7943552136993046
+2023-12-08 23:30:00,954 - training - INFO - dataset mix F1分数: 0.7943552136993046
+
+2023-12-08 23:30:00,763 - training - INFO - dataset doc F1分数: 0.9378714837946789
+2023-12-08 23:30:00,851 - training - INFO - dataset sent F1分数: 0.7633575063189084
+2023-12-08 23:30:00,954 - training - INFO - dataset mix F1分数: 0.7943552136993046
+
+
+2023-12-08 23:32:38,973 - training - INFO - dataset doc F1分数: 0.9516055788355426
+2023-12-08 23:32:38,973 - training - INFO - dataset doc F1分数: 0.9516055788355426
+2023-12-08 23:32:39,106 - training - INFO - dataset sent F1分数: 0.790188538643597
+2023-12-08 23:32:39,106 - training - INFO - dataset sent F1分数: 0.790188538643597
+2023-12-08 23:32:39,215 - training - INFO - dataset mix F1分数: 0.8186839651235414
+2023-12-08 23:32:39,215 - training - INFO - dataset mix F1分数: 0.8186839651235414
+2023-12-12 15:30:03,189 - training - INFO - KNeighborsClassifier
+2023-12-12 15:30:19,121 - training - INFO - dataset doc F1分数: 0.5117130747088923
+2023-12-12 15:30:38,102 - training - INFO - dataset sent F1分数: 0.32440499907963594
+2023-12-12 15:31:45,285 - training - INFO - dataset mix F1分数: 0.3564492034035864
+2023-12-12 15:37:37,070 - training - INFO - LogisticRegression
+2023-12-12 15:37:58,866 - training - INFO - 最佳参数: {'n_neighbors': 19}
+2023-12-12 15:37:58,869 - training - INFO - 最佳模型分数（F1分数）: 0.6883577478839846
+2023-12-12 15:44:51,510 - training - INFO - LogisticRegression
+2023-12-12 15:44:51,512 - training - INFO - 最佳参数: {'n_neighbors': 49}
+2023-12-12 15:44:51,514 - training - INFO - 最佳模型分数（F1分数）: 0.724041202711278
+2023-12-12 15:55:26,483 - training - INFO - LogisticRegression
+2023-12-12 15:55:26,484 - training - INFO - 最佳参数: {'n_neighbors': 96}
+2023-12-12 15:55:26,486 - training - INFO - 最佳模型分数（F1分数）: 0.7478112144870892
+2023-12-12 15:56:00,647 - training - INFO - KNeighborsClassifier
+2023-12-12 15:56:16,775 - training - INFO - dataset doc F1分数: 0.8305400216399318
+2023-12-12 15:56:35,920 - training - INFO - dataset sent F1分数: 0.8110498592086866
+2023-12-12 15:57:44,055 - training - INFO - dataset mix F1分数: 0.8141034057959564
+2023-12-12 15:57:49,338 - training - INFO - KNeighborsClassifier
+2023-12-12 15:58:05,146 - training - INFO - dataset doc F1分数: 0.8313328358840915
+2023-12-12 15:58:24,401 - training - INFO - dataset sent F1分数: 0.8110983500629481
+2023-12-12 15:59:19,949 - training - INFO - dataset sent F1分数: 0.7637045130926552
+2023-12-12 15:59:24,051 - training - INFO - dataset doc F1分数: 0.9378714837946789
+2023-12-12 15:59:24,179 - training - INFO - dataset sent F1分数: 0.7637045130926552
+2023-12-12 15:59:30,854 - training - INFO - dataset doc F1分数: 0.9516055788355426
+2023-12-12 15:59:30,981 - training - INFO - dataset sent F1分数: 0.790188538643597
+2023-12-12 15:59:31,081 - training - INFO - dataset mix F1分数: 0.8186839651235414
+2023-12-12 16:03:32,051 - training - INFO - dataset sent F1分数: 0.7983641682554781
+2023-12-12 16:05:04,015 - training - INFO - dataset sent F1分数: 0.7892086042699143
